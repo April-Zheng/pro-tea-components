@@ -1,5 +1,3 @@
-# dumi-demo
-
 ## Getting Started
 
 Install dependencies,

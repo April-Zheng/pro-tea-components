@@ -16,7 +16,7 @@
   "main": "es/index.js",
   "module": "lib/index.esm.js",
   "typings": "lib/index.d.ts",
-  "sideEffects": [".less", ".css"],
+  "sideEffects": [],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
@@ -29,7 +29,8 @@
     ]
   },
   "dependencies": {
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "tea-component": "^2.6.23"
   },
   "devDependencies": {
     "dumi": "^1.0.16",
