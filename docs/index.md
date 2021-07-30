@@ -11,3 +11,4 @@ title: 简介
 | 组件                                      | 描述         |
 | :---------------------------------------- | :----------- |
 | [DropdownList](/components/dropdown-list) | 级联下拉组件 |
+| [SortItem](/components/sort-item)         | 排序组件     |
