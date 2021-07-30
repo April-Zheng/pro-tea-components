@@ -9,11 +9,14 @@ export default defineConfig({
   favicon: `${baseName}/assets/icon.ico`,
   logo: `${baseName}/assets/logo.svg`,
   outputPath: 'docs-dist',
-  base: baseName,
+  base: baseName || '/',
   publicPath: process.env.NODE_ENV === 'production' ? `${baseName}/` : '/',
   mfsu: {},
   manifest: {},
   hash: true,
+  chainWebpack(memo) {
+    memo.resolve.alias.set(PackageJson.name, '/src');
+  },
   // lessLoader: {
   //   globalVars:{
   //     prefix: 'pro-tea'
