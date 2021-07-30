@@ -6,7 +6,8 @@ export default {
     importLibToEs: true,
   },
   cjs: 'babel',
-  extractCSS: false,
+  cssModules:true,
+  extractCSS: true,
   lessInBabelMode: true,
   autoprefixer: {
     browsers: ['ie>9', 'Safari >= 6'],
