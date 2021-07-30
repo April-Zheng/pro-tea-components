@@ -37,7 +37,7 @@ jobs:
         npm run docs:build
    
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         github_token: ${{ secrets.DUMI_DEPLOY_KEY }}
         publish_dir: ./doc-dist
