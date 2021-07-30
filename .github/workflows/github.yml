@@ -22,20 +22,20 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
-       
-
-    - name: Build
-      run: |
-        npm install
-        npm run deploy
-        git config --global user.email "1131808958@qq.com"
-        git config --global user.name "zlp"
     - name: Cache node modules
       # 设置包缓存目录，避免每次下载
       uses: actions/cache@v1
       with:
         path: ~/.npm
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
+    - name: Build
+      run: |
+        git config --global user.email "1131808958@qq.com"
+        git config --global user.name "zlp"
+        npm install
+        npm run deploy
+   
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
