@@ -1,7 +1,6 @@
 {
-  "private": true,
   "name": "pro-tea-components",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.9.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -28,23 +27,24 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
   "dependencies": {
     "classnames": "^2.3.1",
-    "react": "^16.12.0",
     "tea-component": "^2.6.23"
   },
   "devDependencies": {
-    "dumi": "^1.0.16",
-    "babel-plugin-import": "^1.13.3",
-    "@umijs/plugin-sass": "^1.1.1",
-    "node-sass": "^4.0.0",
-    "sass-loader": "^10.0.5",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
     "@umijs/test": "^3.0.5",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-root-import": "^6.6.0",
+    "dumi": "^1.0.16",
     "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
     "eslint-plugin-prettier": "^3.4.0",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",

@@ -4,8 +4,7 @@ import { Icon, Tooltip, Popover } from 'tea-component';
 import { CLASSPREFIX, DROPDOWNLIST } from '@/constants/component';
 import { DropdownListProps, ListsProps } from './type';
 import SubMenu from './SubMenu';
-import './index.scss';
-
+import './index.less';
 /** 多层级下拉框 */
 const DropdownList = forwardRef((props: DropdownListProps, ref) => {
   const {

@@ -13,10 +13,13 @@ export default defineConfig({
   mfsu: {},
   manifest: {},
   hash: true,
-
-  sass: {
-    implementation: require('node-sass'),
-    prependData: `@import "~@/styles/index.scss";`,
-  },
+  // lessLoader: {
+  //   globalVars:{
+  //     prefix: 'pro-tea'
+  //   },
+  //   modifyVars: {
+  //     hack: 'true; @import "~@/styles/index.less";',
+  //   },
+  // },
   // more config: https://d.umijs.org/config
 });

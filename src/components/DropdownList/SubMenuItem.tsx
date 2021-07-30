@@ -2,10 +2,10 @@ import React, { forwardRef, memo, useRef, useState } from 'react';
 import { Icon, Tooltip } from 'tea-component';
 import classNames from 'classnames';
 import { CLASSPREFIX, DROPDOWNLIST } from '@/constants/component';
-import useDelay from '@/_utils/use-delay';
+import { useDelay } from '@/_utils';
 import { MenuItemProps } from './type';
 import SubMenu from './SubMenu';
-import './index.scss';
+import './index.less';
 
 export default memo(
   forwardRef((props: MenuItemProps, ref: any) => {

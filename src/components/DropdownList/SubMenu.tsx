@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { CLASSPREFIX, DROPDOWNLIST } from '@/constants/component';
 import SubMenuItem from './SubMenuItem';
 import { SubMenuProps } from './type';
-import './index.scss';
+import './index.less';
 
 /** 弹出区域*/
 export default memo((props: SubMenuProps) => {

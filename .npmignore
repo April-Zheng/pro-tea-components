@@ -4,3 +4,10 @@ node_modules
 .npmignore
 *.log
 src
+.fatherrc.ts
+.umirc.ts
+docs
+docs-dist
+.prettierignore
+.prettierrc
+.eslintrc.js
