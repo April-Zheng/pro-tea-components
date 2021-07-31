@@ -5,7 +5,7 @@ export default () => {
   const [value, setValue] = useState('');
   return (
     <SortItem
-      disbaled={true}
+      disabled={true}
       name="发布时间"
       by="submit_date"
       value={value}

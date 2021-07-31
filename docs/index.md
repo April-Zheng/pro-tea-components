@@ -1,14 +1,18 @@
----
-title: 简介
----
+# Pro-tea-components
 
-# 简介
+### 安装
 
-基于 [tea-component](https://tea-design.github.io/component) 的公共组件库
+```bash
+npm i pro-tea-components --save
 
-## 组件
+```
 
-| 组件                                      | 描述         |
-| :---------------------------------------- | :----------- |
-| [DropdownList](/components/dropdown-list) | 级联下拉组件 |
-| [SortItem](/components/sort-item)         | 排序组件     |
+### 使用
+
+```tsx | pure
+import { DropdownList } from 'pro-tea-components';
+```
+
+### 反馈
+
+[issues](https://github.com/April-Zheng/pro-tea-components/issues)

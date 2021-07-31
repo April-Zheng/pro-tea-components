@@ -1,5 +1,5 @@
 ---
-title: DropdownList
+title: 级联下拉 DropdownList
 path: /DropdownList
 group:
   title: '组件'
@@ -12,7 +12,7 @@ group:
 
 <code src="./demos/DropdownList.tsx" />
 
-### disabled
+### 禁用
 
 <code src="./demos/DropdownListDisabled.tsx" />
 

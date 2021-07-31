@@ -6,6 +6,10 @@ Install dependencies,
 $ npm i
 ```
 
+```bash
+npm install -g conventional-changelog-cli
+```
+
 Start the dev server,
 
 ```bash
