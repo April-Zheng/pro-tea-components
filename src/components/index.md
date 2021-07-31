@@ -16,4 +16,4 @@ nav:
 | :---------------------------------------- | :----------- |
 | [DropdownList](/components/dropdown-list) | 级联下拉组件 |
 | [SortGroup](/components/sort-group)       | 排序组件     |
-| [SortItem](/components/sort-item)         | 排序项组件   |
+| [ProTable](/components/pro-table)         | 表格组件     |
